@@ -22,7 +22,7 @@ this repository titled, "action_potential_sparsity.pdf".
 
 # Source Code Explanation
 
-l1_rec.m - this Matlab script is the main program; it uses the other scripts to perform 
+<i>l1_rec.m</i> - this Matlab script is the main program; it uses the other scripts to perform 
 certain algorithms to the data. 
 
 
