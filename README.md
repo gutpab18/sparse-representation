@@ -18,7 +18,7 @@ Once we were able to create a representation of the data, we could iterate throu
 the representation and make observations on the full dataset. Since the representation
 was so much smaller, the computational power required to iterate through it is much less. 
 
-To learn more about the theory and results of this project, take a look at the PDF in 
+To learn more about the theory and results of this project, take a look at the paper in 
 this repository titled, "action_potential_sparsity.pdf". 
 
 # Source code description
