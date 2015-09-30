@@ -1,17 +1,23 @@
 %{
 
 Name: l1_rec.m
+
 Author: Vidhu Nath, Pablo Gutierrez, Alexandros Kontogiorgos-Heintz, Peter LaFontaine
-Description: This script is used to run through POGO-SPKCO1 data to produce
+
+Description: 
+
+This script is used to run through POGO-SPKCO1 data to produce
 a recovered data set. This script is all that is necessary to run the
 algorithms, all that needs to be set is the location of the POGO data.
 This script operates by first opening the POGO data and extracting the
-data size desired (extract_sample_data.m). Then this value is used to 
-run through the algorithm that reconstructs the data, thereby producing
-the recovered data and the error associated with it (piecewise_rec.m) 
-by calling a function which runs the l1-minimization (rec_pd.m). The final
-component produces a "threshold" graph of the data, so that anything over
-or under the mean by a set standard deviation is set to 0, and all other
+data size desired (extract_sample_data.m). 
+
+Then this value is used to run through the algorithm that reconstructs the data, 
+thereby producing the recovered data and the error associated with it (piecewise_rec.m) 
+by calling a function which runs the l1-minimization (rec_pd.m). 
+
+The final component produces a "threshold" graph of the data, so that anything 
+over or under the mean by a set standard deviation is set to 0, and all other
 data remains the same (threshold.m). This is used to determine the shape
 and peaks of the neuron spikes without needing to muddle through all of the
 noise in the data.
