@@ -1,6 +1,6 @@
 function [ xprec ] = rec_pd( x, samp, iter )
 %{
-Name: recover.m
+Name: rec_pd.m
 Author: Vidhu Nath, Pablo Gutierrez, Alexandros Kontogiorgos-Heintz, Peter LaFontaine
 
 Inputs:
