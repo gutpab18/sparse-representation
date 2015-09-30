@@ -1,7 +1,7 @@
 %{
 
 Name: l1_rec.m
-Author: Vidhu Nath
+Author: Pablo Gutierrez, Vidhu Nath, Alexandros Kontogiorgos-Heintz, Peter LaFontaine
 Description: This script is used to run through POGO-SPKCO1 data to produce
 a recovered data set. This script is all that is necessary to run the
 algorithms, all that needs to be set is the location of the POGO data.
